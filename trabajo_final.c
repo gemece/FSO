@@ -18,26 +18,6 @@ sem_t hay_espacio_B1;
 sem_t hay_dato_B2;
 sem_t hay_espacio_B2;
 
-int quedan_Datos1(int *dato){
-int dato_leido=0;
-int a=0;
-	if(dato_leido<Num_bucle){
-		a=1;
-		*dato=dato_leido;
-		dato_leido++;
-	}
-	return a;
-}
-int quedan_Datos2(int *dato){
-int dato_leido=0;
-int a=0;
-	if(dato_leido<Num_bucle){
-		a=1;
-		*dato=dato_leido;
-		dato_leido++;
-	}
-	return a;
-}
 int capicua(char*num){
 int esCapicua=1;
 int i,j;
